@@ -1,0 +1,47 @@
+# Ignore Python compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+venv/
+env/
+*.env
+
+# Ignore secret keys and environment files
+.env
+*.ini
+*.cfg
+
+# Django Migrations
+*/migrations/
+db.sqlite3
+*.sqlite3
+
+# IDE / Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs and Debug Files
+*.log
+logs/
+debug.log
+
+# Ignore cache and static files
+staticfiles/
+media/
+*.bak
+
+# Ignore coverage reports
+.coverage
+htmlcov/
+*.cover
+*.py,cover
+
+
+# Ignore dependencies
+Pipfile
+Pipfile.lock
+poetry.lock
